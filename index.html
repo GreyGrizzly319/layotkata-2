@@ -8,25 +8,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">    
+    <div class="overlay">
+    <aside class="wrapper"> 
+        <div class="inner__container">
     <!-- верстаем Header -->
-    <header class="header">
-        <div class="header__container">
+    <div class="header">
+        <div class="header__nav">
         <button class="header__button button cancel">
-            <img class="icon" src="icon/cancel.svg" alt="">
+            <img class="icon" src="assets/icon/cancel.svg" alt="">
         </button>
         <a  href="" class="header__logo">
-            <img  src="assets/img/Group.svg" alt="">
+            <img  src="assets/img/Group.svg" alt="логотип" href="#">
         </a>
         <button class="header__button button loupe">
-            <img class ="icon" src="icon/loupe.svg" alt="">
+            <img class ="icon" src="assets/icon/loupe.svg" alt="">
         </button>                   
     </div>
-    </header>
+</div>
 
 <!-- верстаем main -->
-    <main>
-    <div class="main__container">  
+    <div class="main">    
 <menu class="main__menu">
     <ul class="main__menu-list">
         <li class="main__menu-item
@@ -47,39 +48,38 @@
         " ><a class="menu__link" class="" href="#">Контакты</a></li>
     </ul>
 </menu> 
-</div>  
-    </main>
+  
+    </div>
     <!-- верстаем футер -->
-    <footer class="footer">
-        <div class="footer__container">
+    <div class="footer">       
             <div class="footer__nav">
                 <button class="footer__button button">
-                    <img src="icon/call.svg" alt="" class="icon">
+                    <img src="assets/icon/call.svg" alt="" class="icon">
                 </button>
                 <button class="footer__button button">
-                    <img src="icon/message.svg" alt="" class="icon">
+                    <img src="assets/icon/message.svg"  alt="" class="icon">
                 </button>
                 <button class="footer__button button">
-                    <img src="icon/profile.svg" alt="" class="icon">
+                    <img src="assets/icon/profile.svg" alt="" class="icon">
                 </button>
             </div>
             <div class="footer__contact">
-                <div class="footer__mail">
-                    mail@cps.com
-                </div>
-                <div class="footer__number">
-                    8 800 890 8900
-                </div>
+               <a class="footer__mail" href="email:">mail@cps.com</a>
+                  
+                <a class ="footer__number"href="tel:">8 800 890 8900</a>
+                    
+                
             </div>
             <div class="foooter__leanguages">
                 <ul class="leanguages__list">
-                    <li><a class="leanguages__link" href="#">RU</a></li>
-                    <li><a class="leanguages__link" href="#">EN</a></li>
-                    <li><a class="leanguages__link" href="#">CH</a></li
+                    <li><button class="leanguages__button" href="#">RU</button></li>
+                    <li><button class="leanguages__button" href="#">EN</button></li>
+                    <li><button class="leanguages__button" href="#">CH</button></li
                 </ul>
             </div>
-        </div>
-    </footer>
+    </div>
+</div>
+</aside>
 </div>
 </body>
 </html>
